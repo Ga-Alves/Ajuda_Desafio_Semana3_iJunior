@@ -9,6 +9,8 @@
 </head>
 <body>
   <div class="main-container">
+    <img id='background' src="./images/bg-main-desktop.png" alt="">
+
     <div class="card card-front">
       <img src="./images/bg-card-front.png" alt="">
       <img class="card-logo" src="./images/card-logo.svg" alt="">
@@ -20,6 +22,37 @@
     <div class="card card-back">
       <img src="./images/bg-card-back.png" alt="">
       <p class="cvc">000</p>
+    </div>
+
+    <div class="form">
+      <p class="label-name">CARDHOLDER NAME</p>
+      <input maxlength="20" placeholder="e.g. Jane Aplessed" type="text" class="input-name">
+      <p class="error-name">Wrong format, only letters and spaces!</p>
+      
+      <p class="label-number">CARD NUMBER</p>
+      <input maxlength="16" placeholder="e.g. 0000 0000 0000 0000" type="text" class="input-number">
+      <p class="error-number">Wrong format, only numbers !</p>
+
+      <div class="date-cvc">
+        <div>
+          <p class="label-expdate">EXP. DATE(MM/YY)</p>
+          <div class="exp-date-inputs">
+            <input maxlength="2" placeholder="MM" type="text" class="exp-MM">
+            <input maxlength="2" placeholder="YY" type="text" class="exp-YY">
+          </div>
+          <p class="error-expdate">Wrong format, only numbers !</p>
+        </div>
+
+        <div>
+          <p class="label-cvc">CVC</p>
+          <input maxlength="3" placeholder="e.g. 000" type="text" class="input-cvc">
+          <p class="error-cvc">Wrong format, only numbers !</p>
+        </div>
+      </div>
+
+        <button class="button">Confirm</button>
+
+
     </div>
 
   </div>
