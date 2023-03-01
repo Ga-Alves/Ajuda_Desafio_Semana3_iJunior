@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&family=Space+Grotesk:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sevillana', cursive;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+.card {
+    width: 447px;
+    height: 245px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.card-front .card-logo{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.card-front .card-number {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+
+.card-front .card-name {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    color: white;
+    letter-spacing: 2px;
+}
+.card-front .card-expdate {
+    position: absolute;
+    bottom: 15%;
+    right: 17.5%;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.card-back .cvc {
+    position: absolute;
+    top: 43%;
+    right: 15%;
+    color: white;
+}
